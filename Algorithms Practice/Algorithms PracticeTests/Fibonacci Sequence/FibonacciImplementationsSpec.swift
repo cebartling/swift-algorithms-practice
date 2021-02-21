@@ -9,7 +9,7 @@
 import Nimble
 import Quick
 
-class RecursiveFibonacciSpec: QuickSpec {
+class FibonacciImplementationsSpec: QuickSpec {
     override func spec() {
         let specified_examples: [(input: Int, expected: Int)] = [
             (input: 0, expected: 0),
@@ -20,6 +20,7 @@ class RecursiveFibonacciSpec: QuickSpec {
             (input: 5, expected: 5),
             (input: 6, expected: 8),
             (input: 7, expected: 13),
+            (input: 8, expected: 21),
         ]
 
         specified_examples.forEach { (input: Int, expected: Int) in
@@ -29,6 +30,10 @@ class RecursiveFibonacciSpec: QuickSpec {
 
             it("iterative_fibonacci(\(input)) should be \(expected)") {
                 expect(iterative_fibonacci(input)).to(equal(expected))
+            }
+
+            it("lucas_fibonacci(\(input)) should be \(expected)") {
+                expect(lucas_fibonacci(input)).to(equal(expected))
             }
         }
     }
