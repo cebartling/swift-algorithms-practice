@@ -23,8 +23,12 @@ class RecursiveFibonacciSpec: QuickSpec {
         ]
 
         specified_examples.forEach { (input: Int, expected: Int) in
-            it("fib(\(input)) should be \(expected)") {
-                expect(fib(input)).to(equal(expected))
+            it("recursive_fibonacci(\(input)) should be \(expected)") {
+                expect(recursive_fibonacci(input)).to(equal(expected))
+            }
+
+            it("iterative_fibonacci(\(input)) should be \(expected)") {
+                expect(iterative_fibonacci(input)).to(equal(expected))
             }
         }
     }

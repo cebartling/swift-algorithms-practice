@@ -17,7 +17,6 @@
 		83460EB725E1DC69005368C6 /* Algorithms_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83460EB625E1DC69005368C6 /* Algorithms_PracticeTests.swift */; };
 		83460EC225E1DC69005368C6 /* Algorithms_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83460EC125E1DC69005368C6 /* Algorithms_PracticeUITests.swift */; };
 		83460ED425E1DCCA005368C6 /* RecursiveFibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83460ED325E1DCCA005368C6 /* RecursiveFibonacci.swift */; };
-		83460EDD25E1E090005368C6 /* RecursiveFibonacciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83460EDC25E1E090005368C6 /* RecursiveFibonacciTests.swift */; };
 		83460EE525E21472005368C6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 83460EE425E21472005368C6 /* Podfile */; };
 		8352553E25E2195800A452D0 /* RecursiveFibonacciSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8352553D25E2195800A452D0 /* RecursiveFibonacciSpec.swift */; };
 /* End PBXBuildFile section */
@@ -61,7 +60,6 @@
 		83460EC125E1DC69005368C6 /* Algorithms_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms_PracticeUITests.swift; sourceTree = "<group>"; };
 		83460EC325E1DC69005368C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83460ED325E1DCCA005368C6 /* RecursiveFibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveFibonacci.swift; sourceTree = "<group>"; };
-		83460EDC25E1E090005368C6 /* RecursiveFibonacciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveFibonacciTests.swift; sourceTree = "<group>"; };
 		83460EE425E21472005368C6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		8352553D25E2195800A452D0 /* RecursiveFibonacciSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveFibonacciSpec.swift; sourceTree = "<group>"; };
 		E3AB6CA49501AFEAF8EA5D75 /* Pods-Algorithms PracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algorithms PracticeTests.release.xcconfig"; path = "Target Support Files/Pods-Algorithms PracticeTests/Pods-Algorithms PracticeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -192,7 +190,6 @@
 		83460EDB25E1DE4E005368C6 /* Fibonacci Sequence */ = {
 			isa = PBXGroup;
 			children = (
-				83460EDC25E1E090005368C6 /* RecursiveFibonacciTests.swift */,
 				8352553D25E2195800A452D0 /* RecursiveFibonacciSpec.swift */,
 			);
 			path = "Fibonacci Sequence";
@@ -448,7 +445,6 @@
 			files = (
 				83460EB725E1DC69005368C6 /* Algorithms_PracticeTests.swift in Sources */,
 				8352553E25E2195800A452D0 /* RecursiveFibonacciSpec.swift in Sources */,
-				83460EDD25E1E090005368C6 /* RecursiveFibonacciTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
