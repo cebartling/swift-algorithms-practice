@@ -10,4 +10,4 @@ Various experiments with writing algorithms in Swift.
 5. Install the cocoapods gem if you don't already have it: `gem install cocoapods`
 6. Install the cocoapods specified in the `Podfile`: `pod install`
 7. Open the `Algorithms Practice.xcworkspace` in Xcode. Do this by double clicking this file in a Finder window.
-
+8. Build and run the tests.
